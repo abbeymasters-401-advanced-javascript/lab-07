@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "json-server ./data/db.json --routes routes.json --id _id",
-    "lint": "eslint '**/*.js'"
+    "lint": "eslint '**/*.js'",
+    "test": "jest --verbose --passWithNoTests"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
     "superagent": "^5.1.0"
   },
   "dependencies": {
+    "jest": "^24.9.0",
     "json-server": "^0.15.1"
   }
 }
