@@ -6,7 +6,6 @@
   "scripts": {
     "start": "json-server ./data/db.json --routes routes.json --id _id",
     "test": "jest --verbose --passWithNoTests",
-    "test-watch": "jest --verbose --watchAll",
     "lint": "eslint '**/*.js'"
   },
   "keywords": [],
@@ -19,8 +18,5 @@
   },
   "dependencies": {
     "json-server": "^0.15.1"
-  },
-  "jest": {
-    "testEnvironment": "node"
   }
 }
