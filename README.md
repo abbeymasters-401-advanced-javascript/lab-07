@@ -11,8 +11,6 @@
 #### Running the app
 Commands:
    "start": "json-server ./data/db.json --routes routes.json --id _id",
-    "test": "jest --verbose --passWithNoTests",
-    "test-watch": "jest --verbose --watchAll",
     "lint": "eslint '**/*.js'"
   
 

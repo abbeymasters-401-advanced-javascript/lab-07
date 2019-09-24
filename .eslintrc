@@ -10,7 +10,6 @@
   "env": {
     "node": true,
     "commonjs": true,
-    "jest": true,
     "es6": true
   },
   "globals": {},
