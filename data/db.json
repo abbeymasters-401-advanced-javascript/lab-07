@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "_id": 1,
+      "name": "grain",
+      "display_name": "Grain",
+      "description": "tastes good, not the best for ya"
+    },
+    {
+      "_id": 2,
+      "name": "vegetable",
+      "display_name": "Vegetable",
+      "description": "much healthier for you than anything"
+    },
+    {
+      "_id": 3,
+      "name": "meat",
+      "display_name": "Meat",
+      "description": "gives you lots of protein"
+    }
+  ],
+  "products": [
+    {
+      "_id": 1,
+      "category": "grain",
+      "name": "rice",
+      "display_name": "Rice",
+      "description": "KINDA great in almost every meal"
+    },
+    {
+      "_id": 2,
+      "category": "vegetable",
+      "name": "broccoli",
+      "display_name": "Broccoli",
+      "description": "you should have it in almost every meal"
+    },
+    {
+      "_id": 3,
+      "category": "meat",
+      "name": "beef",
+      "display_name": "Beef",
+      "description": "Red meat?"
+    },
+    {
+      "_id": 4,
+      "category": "vegetable",
+      "name": "asparagus",
+      "display_name": "Asparagus",
+      "description": "kinda yummy"
+    }
+  ]
+}
