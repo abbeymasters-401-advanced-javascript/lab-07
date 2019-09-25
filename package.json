@@ -1,0 +1,22 @@
+{
+  "name": "copy-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server ./data/db.json --routes routes.json --id _id",
+    "lint": "eslint '**/*.js'",
+    "test": "jest --verbose --passWithNoTests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "superagent": "^5.1.0"
+  },
+  "dependencies": {
+    "jest": "^24.9.0",
+    "json-server": "^0.15.1"
+  }
+}
